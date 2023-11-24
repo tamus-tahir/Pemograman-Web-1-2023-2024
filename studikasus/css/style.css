@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header .navigasi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: #000000cd;
+}
+
+header .navigasi .logo img {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+header .navigasi .menu-list {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+header .navigasi .menu-list li a {
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+header .navigasi .menu-list li a:hover {
+    color: red;
+    transition: 1.5s;
+}
+
+/* end header */
+
+/* hero */
+.hero iframe {
+    height: 100vh;
+    width: 100%;
+}
+
+/* end hero */
+
+/* sambutan */
+.sambutan {
+    margin: 20px 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.sambutan .sambutan-img img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sambutan .sambutan-teks {
+    text-align: justify;
+    line-height: 30px;
+}
+
+.sambutan .sambutan-teks p {
+    margin: 10px;
+}
+
+/* end sambutan */
+
+/* footer */
+.footer {
+    height: 50px;
+    background: #000;
+}
+
+.footer .copyright {
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* end footer */
