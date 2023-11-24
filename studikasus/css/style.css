@@ -12,6 +12,21 @@ a {
     text-decoration: none;
 }
 
+.section {
+    margin: 20px 30px;
+}
+
+.page-title {
+    text-align: center;
+    margin: 30px auto;
+    text-transform: uppercase;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+}
+
 /* header */
 header .navigasi {
     display: flex;
@@ -25,7 +40,7 @@ header .navigasi {
 
 header .navigasi .logo img {
     height: 60px;
-    width: 60px;
+    width: 180px;
     margin-left: 20px;
 }
 
@@ -58,7 +73,6 @@ header .navigasi .menu-list li a:hover {
 
 /* sambutan */
 .sambutan {
-    margin: 20px 30px;
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 10px;
@@ -81,7 +95,22 @@ header .navigasi .menu-list li a:hover {
 
 /* end sambutan */
 
+/* welcome */
+.welcome .content {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/* end welcome */
+
 /* footer */
+.maps iframe {
+    width: 100%;
+    height: 300px;
+}
+
 .footer {
     height: 50px;
     background: #000;

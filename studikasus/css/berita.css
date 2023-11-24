@@ -1,0 +1,31 @@
+.wrapper-berita {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.wrapper-berita .card {
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 5px;
+}
+
+.wrapper-berita .card img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.wrapper-berita .card .card-body {
+    padding: 20px;
+}
+
+.wrapper-berita .card .date {
+    font-size: 13px;
+    text-align: right;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.wrapper-berita .card .text {
+    text-align: justify;
+}
